@@ -61,7 +61,7 @@ for i=1:database_size
     X = imread(im);
     X = im2double(X);
     %X=X(1:1024,1:1024,:);
-    X=X(1:720,1:720,:); %Change !!!
+    X=X(1:512,1:512,:); %Change !!!
    
   
    
